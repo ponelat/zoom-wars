@@ -27,6 +27,24 @@ table.players {
   width: 17%;
 }
 
+@media only screen and (max-width: 600px) {
+
+  .App-logo {
+    height: 80vmin;
+  }
+
+  .App-header {
+    font-size: 22px;
+  }
+  table.players {
+    width: 85%;
+  }
+
+  hr.divider {
+    width: 90%;
+  }
+}
+
 tr.winning {
   background: #444c5d;
 }

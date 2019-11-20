@@ -3,6 +3,8 @@ import ZoomWars from './zoom-wars-plain.svg';
 import Yaml from 'yaml'
 import './App.css';
 
+const example = [{"playerName":"Josh","zoomsWon":"0"},{"playerName":"Barry ( Bob ) ","zoomsWon":"0"}]
+
 class App extends React.Component {
   state = {
     players: []
@@ -14,11 +16,11 @@ class App extends React.Component {
   }
 
   fetchPlayers = () => {
-    fetch('https://ponelat.github.io/zoom-wars/players.yaml')
+    fetch('https://sheetdb.io/api/v1/d2ioykoyz777t')
       .then( r => r.text())
       .then(Yaml.parse)
       .then(players => {
-        players.sort((a,b) => b.count - a.count)
+        players.sort((a,b) => b.zoomsWon - a.zoomsWon)
         this.setState({ players, err: '', playerLoading: false })
       })
       .catch(err => {
@@ -30,7 +32,7 @@ class App extends React.Component {
     const { players } = this.state
     let winningScore
     if(players.length)
-      winningScore = players[0].count
+      winningScore = players[0].zoomsWon
 
     return (
       <div className="App">
@@ -40,11 +42,11 @@ class App extends React.Component {
           <hr className="divider"/>
 
           <table className="players">
-            { players.map(({name, count}, i) => (
-              <tr className={ count === winningScore ? "winning" : ""}
-                key={name}>
-                <td>{name}</td>
-                <td>{count}</td>
+            { players.map(({playerName, zoomsWon}, i) => (
+              <tr className={ zoomsWon === winningScore ? "winning" : ""}
+                key={playerName}>
+                <td>{playerName}</td>
+                <td>{zoomsWon}</td>
               </tr>
             ))}
           </table>
