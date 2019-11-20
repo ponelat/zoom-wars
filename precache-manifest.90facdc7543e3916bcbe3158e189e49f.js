@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "81ca2249172830c5c8f1cde6dfa1d79d",
+    "revision": "8061871eb167d0f962016ce295e4c564",
     "url": "/zoom-wars/index.html"
   },
   {
