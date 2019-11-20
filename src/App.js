@@ -14,7 +14,7 @@ class App extends React.Component {
   }
 
   fetchPlayers = () => {
-    fetch('players.yaml')
+    fetch('https://ponelat.github.io/zoom-wars/players.yaml')
       .then( r => r.text())
       .then(Yaml.parse)
       .then(players => {
