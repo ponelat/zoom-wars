@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "322f6c30e973704eca32e50cf4edc30f",
+    "revision": "81ca2249172830c5c8f1cde6dfa1d79d",
     "url": "/zoom-wars/index.html"
   },
   {
-    "revision": "e8dd9c1f4886483b4ad1",
-    "url": "/zoom-wars/static/css/main.5ccbd506.chunk.css"
+    "revision": "8025eff66d417a49d8d8",
+    "url": "/zoom-wars/static/css/main.7bd31eeb.chunk.css"
   },
   {
     "revision": "b5728cb5124b45111cbb",
     "url": "/zoom-wars/static/js/2.23cf039a.chunk.js"
   },
   {
-    "revision": "e8dd9c1f4886483b4ad1",
-    "url": "/zoom-wars/static/js/main.132ecca1.chunk.js"
+    "revision": "8025eff66d417a49d8d8",
+    "url": "/zoom-wars/static/js/main.55c89baf.chunk.js"
   },
   {
     "revision": "5b3e7856bd600fc386ab",
