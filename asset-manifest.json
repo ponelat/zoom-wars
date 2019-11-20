@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.5ccbd506.chunk.css",
-    "main.js": "/static/js/main.f8311712.chunk.js",
-    "main.js.map": "/static/js/main.f8311712.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.23cf039a.chunk.js": "/static/js/2.23cf039a.chunk.js",
-    "static/js/2.23cf039a.chunk.js.map": "/static/js/2.23cf039a.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.930964c192f511e2707b288d65f819a7.js": "/precache-manifest.930964c192f511e2707b288d65f819a7.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.5ccbd506.chunk.css.map": "/static/css/main.5ccbd506.chunk.css.map",
-    "static/media/zoom-wars-plain.svg": "/static/media/zoom-wars-plain.5eb22ea5.svg"
+    "main.css": "/zoom-wars/static/css/main.5ccbd506.chunk.css",
+    "main.js": "/zoom-wars/static/js/main.132ecca1.chunk.js",
+    "main.js.map": "/zoom-wars/static/js/main.132ecca1.chunk.js.map",
+    "runtime~main.js": "/zoom-wars/static/js/runtime~main.fcb39e59.js",
+    "runtime~main.js.map": "/zoom-wars/static/js/runtime~main.fcb39e59.js.map",
+    "static/js/2.23cf039a.chunk.js": "/zoom-wars/static/js/2.23cf039a.chunk.js",
+    "static/js/2.23cf039a.chunk.js.map": "/zoom-wars/static/js/2.23cf039a.chunk.js.map",
+    "index.html": "/zoom-wars/index.html",
+    "precache-manifest.580d603dbcaf140bb193a9e4c88368c4.js": "/zoom-wars/precache-manifest.580d603dbcaf140bb193a9e4c88368c4.js",
+    "service-worker.js": "/zoom-wars/service-worker.js",
+    "static/css/main.5ccbd506.chunk.css.map": "/zoom-wars/static/css/main.5ccbd506.chunk.css.map",
+    "static/media/zoom-wars-plain.svg": "/zoom-wars/static/media/zoom-wars-plain.5eb22ea5.svg"
   }
 }
